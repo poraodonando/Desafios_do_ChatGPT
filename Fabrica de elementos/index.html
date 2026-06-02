@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="fase1">
+        <h1>FAbrique elementos</h1>
+        <b>Qual elemento</b> <input >
+        <button>Criar</button>
+
+    </section>
+
+    <section style="display: none;" id="fase2">
+        <b>add propriedade</b> <input >
+        <b>add valor da propriedade</b> <input>
+        <button>aplicar</button>
+        <br>
+        <button>finalizar</button>
+
+    </section>
+    <main>
+
+    </main>
+
+    <script>
+        let fase1 = document.querySelector("#fase1")
+        let fase2 = document.querySelector("#fase2")
+        let criar = document.querySelector("#criar")
+        let finalizar = document.querySelector("#finalizar")
+
+        function avanca(){
+
+        }
+
+        function recomeca(){
+            
+        }
+
+        // criar.addEventListener("click", )
+        criar.onclick = () => {
+            fase1.style.display = "none"
+            fase2.style.display = "block"
+            
+        }
+
+        finalizar.onclick = () => {
+            fase1.style.display = "block"
+            fase2.style.display = "none"
+            
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
