@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+p{
+    margin: 5px;
+    
+}
+.nome{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    
+}
+div{
+    max-width: 300px;
+    margin: 30px;
+    
+}
+
+img{
+    max-height: 200px;
+    border-radius: 12px ;
+}
+
+img:hover{
+    max-height: 250px;
+}
+
+.button{
+    font-size: 20px;
+    width: 100px;
+}
+
+.button:hover{
+    background-color: rgb(53, 53, 53);
+    font-weight: bolder;
+    color: antiquewhite;
+}
