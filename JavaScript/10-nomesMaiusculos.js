@@ -4,6 +4,13 @@ const alunos = [
     { nome: "Maria" }
 ];
 
+const alunosAp = [
+    { nome: "Ana", nota: 8 },
+    { nome: "João", nota: 5 },
+    { nome: "Maria", nota: 7 }
+];
+
+function nomesMaiusculos(alunos){
 
    
     const nomeMaiusculo = alunos.map(maius => maius.nome.toUpperCase());
