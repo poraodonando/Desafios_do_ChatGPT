@@ -1,0 +1,77 @@
+
+body{
+
+    background-color: rgb(37, 37, 37);
+}
+p{
+    font-size: 30px;
+}
+
+ul{
+    display: inline-flex;
+    gap: 50px;
+    text-decoration: none;
+
+}
+li{
+    padding: auto;
+    color: white;
+    font-size: 30px;
+    list-style-type: none;      
+}
+.flix{
+    display: inline-block;
+    margin: 2px;
+    height: 150px;
+}
+
+.item{
+    background-color: black;
+    padding: 20px 50px ;
+    transition: all 1s;
+}
+
+.item:hover{
+    background-color: rgba(255, 50, 50, 0.993);
+}
+
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.cards{
+    width: 200px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(146, 146, 146, 0.349);
+    border-radius: 15px;
+    transition: all .8s;
+    text-align: center;
+    background-color: rgb(136, 136, 136);
+    color: white;
+    
+}
+
+.cards:hover{
+    width: 250px;
+    box-shadow: 5px 5px 5px 5px rgb(53, 53, 53);
+}
+
+.botao{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: all .5s;
+    background-color: black;
+    color: white;
+    
+}
+.botao:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
