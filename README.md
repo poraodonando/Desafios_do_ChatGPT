@@ -1,4 +1,4 @@
-# 🚀 Jornada de Desenvolvimento Web — DesafioJS + DesafioHTMLCSS
+# 🚀 Jornada DEV — Desafio JS + Desafio HTML e CSS
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
 ![HTML5](https://img.shields.io/badge/HTML5-orange)
@@ -8,6 +8,8 @@
 ![Study Project](https://img.shields.io/badge/project-practical-important)
 ![Roadmap](https://img.shields.io/badge/roadmap-front--end-purple)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/SEUUSUARIO/REPOSITORIO)
+
+<img src="Resources\imagens\HTML.png">
 
 ---
 
