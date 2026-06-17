@@ -9,7 +9,7 @@
 ![Roadmap](https://img.shields.io/badge/roadmap-front--end-purple)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/SEUUSUARIO/REPOSITORIO)
 
-<img src="Resources\imagens\HTML.png">
+<img src="Resources\imagens\HTML.png" style="width: 40px">
 
 ---
 
