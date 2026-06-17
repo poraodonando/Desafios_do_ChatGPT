@@ -148,9 +148,6 @@ Ao concluir todas as etapas, a expectativa é desenvolver capacidade para:
 - GitHub
 - VS Code
 
-:contentReference[oaicite:1]{index=1}  
-:contentReference[oaicite:2]{index=2}  
-:contentReference[oaicite:3]{index=3}
 
 ---
 
@@ -205,8 +202,6 @@ LinkedIn
 ↓
 Portfólio
 ```
-
-:contentReference[oaicite:4]{index=4}
 
 ---
 
