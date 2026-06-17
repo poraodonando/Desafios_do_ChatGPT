@@ -1,0 +1,95 @@
+
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    background-color: rgba(2, 2, 255, 0.911);
+}
+
+header{
+    padding: 5px;
+}
+.logo{
+    width: 5%;
+    height: 5%;
+}
+
+ul{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    padding: 5px;
+}
+li{
+    list-style-type: none;
+    
+}
+
+
+    
+
+
+li > a{
+    margin: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(29, 50, 235);
+
+}
+
+a:hover{
+    background-color: blue;
+}
+
+
+
+
+img{
+
+    width: 250px;
+    height: 150px;
+    display: block;
+    padding: auto;
+
+}
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+.card{
+    background-color: rgba(119, 119, 189, 0.459);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px  rgba(245, 222, 179, 0.568);
+    
+}
+.card > h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px blue;
+}
+
+.card > p{
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.card:hover{
+     background-color: rgba(11, 11, 167, 0.521);
+
+}
