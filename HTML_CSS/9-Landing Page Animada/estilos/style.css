@@ -1,2 +1,70 @@
 
+@charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background: url(../img/banner-phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+menu{
+    padding: 20px;
+    display: block;
+}
+
+ ul{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:  center;
+    justify-content: center;
+    
+}
+
+li{
+    padding: 2px;
+    list-style-type: none;
+}
+
+
+
+#img-logo{
+    width: 50px;
+}
+
+img{
+    max-width: 150px;          /* Garante que a imagem seja responsiva */
+    height: auto;
+    margin: 5px;
+}
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+.card{
+    background-color: silver;
+    width: 300px;
+    /* height: 400px; */
+    margin: auto;
+
+}
+button{
+    margin-bottom: 20px;
+    
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
+}
