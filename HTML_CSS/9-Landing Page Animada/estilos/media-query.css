@@ -16,8 +16,13 @@
 
     @media screen and (min-width: 768px) and (max-width:992px) {
 
+        .banner{
+            background: url(../img/banner-mendio.png);
+        }
+
         .cards{
             background-color: rgb(133, 133, 133);
+            background-repeat: no-repeat;
             /* margin: auto; */
         }
         .card{
@@ -28,13 +33,20 @@
     }
 
 
-    @media screen and (min-width: 923px) and (max-width: 1200px) {
+    @media screen and (min-width: 923px)  {
+
+        .banner{
+            background: url(../img/banner-grande.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         
         .card{
-            width: 300px;
+            min-width: 300px;
+            background-color: rgb(58, 58, 58);
         }
         
         .cards{
-            background-color: blue;
+            min-width: 600px;
         }
     }
