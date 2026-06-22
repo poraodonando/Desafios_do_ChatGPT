@@ -1,2 +1,40 @@
 @charset "UTF-8";
 
+    /* TIPOCAL DEVICE POINT 
+
+        Pequenas Telas -> até 600px
+        Celular -> de 600px até 768px
+        Tablet -> 768px até 992px
+        Desktop -> 992px até 1200px
+        Grandes Telas -> acima de 1200px
+    
+    */
+
+    body{
+        
+    }
+
+    @media screen and (min-width: 768px) and (max-width:992px) {
+
+        .cards{
+            background-color: rgb(133, 133, 133);
+            /* margin: auto; */
+        }
+        .card{
+            width: 40vw;
+            background-color: rgb(59, 59, 59);
+        }
+        
+    }
+
+
+    @media screen and (min-width: 923px) and (max-width: 1200px) {
+        
+        .card{
+            width: 300px;
+        }
+        
+        .cards{
+            background-color: blue;
+        }
+    }
